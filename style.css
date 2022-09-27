@@ -14,3 +14,8 @@ table {
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 20%;
 }
+
+.showBooks {
+  border-style: solid;
+}
+
