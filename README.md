@@ -10,7 +10,7 @@ Javascript booklist app .. we can add books, remove books
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://nurkaamre.github.io/Awwsome-books/)
 
 
 ## Getting Started
