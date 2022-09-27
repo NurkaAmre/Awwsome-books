@@ -62,8 +62,8 @@ class Store {
     static removeBook(index) {
         const books = Store.getBooks();
 
-        books.forEach((book, index) => {
-        if (book.index === index) {
+        books.forEach((book, i) => {
+        if (i === index) {
             books.splice(index, 1);
         }
     });
@@ -95,5 +95,11 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
 
 // Event: Remove a Book
 document.querySelector('#book-list').addEventListener('click', (e) => {
-    UI.deleteBook(e.target)
+    if(e.target.classList.contains('delete')){
+        console.log("I want sex")
+        const index = [...document.querySelectorAll('.delete')].indexOf(e.target);
+        console.log(index)
+        Store.removeBook(index);
+        UI.deleteBook(e.target);
+    }
 });
