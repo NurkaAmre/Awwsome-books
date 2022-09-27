@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+table {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20%;
+}
