@@ -27,7 +27,7 @@ table {
   font-family: 'Times New Roman', Times, serif;
   border-collapse: collapse;
   width: 700px;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 th {
