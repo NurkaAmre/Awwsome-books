@@ -7,13 +7,40 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
+}
+
+h1 {
+  text-align: center;
+}
+.showBooks {
+  border: 2px solid #000;
+  
+}
+
+hr {
+  width: 60px;
+  padding-top: 2px;
+  background-color: #000;
 }
 
 table {
   font-family: 'Times New Roman', Times, serif;
-  margin-bottom: 20%;
+    border-collapse: collapse;
+    width: 700px;
+    max-width: 100%;
 }
+
+th {
+  font-weight: bold;
+}
+tr:nth-of-type(odd) {
+  background-color: gainsboro;
+}
+
+tr:nth-of-type(even) {
+  background-color: #fff;
+}
+
 
 .showBooks {
   border-style: solid;
