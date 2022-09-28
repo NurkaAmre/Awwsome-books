@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.showBooks {
+  border: 2px solid #000;
+}
+
+hr {
+  width: 60px;
+  padding-top: 2px;
+  background-color: #000;
+}
+
+table {
+  font-family: 'Times New Roman', Times, serif;
+  border-collapse: collapse;
+  width: 700px;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr:nth-of-type(odd) {
+  background-color: gainsboro;
+}
+
+tr:nth-of-type(even) {
+  background-color: #fff;
+}
