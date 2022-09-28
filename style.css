@@ -12,9 +12,9 @@
 h1 {
   text-align: center;
 }
+
 .showBooks {
   border: 2px solid #000;
-  
 }
 
 hr {
@@ -25,14 +25,15 @@ hr {
 
 table {
   font-family: 'Times New Roman', Times, serif;
-    border-collapse: collapse;
-    width: 700px;
-    max-width: 100%;
+  border-collapse: collapse;
+  width: 700px;
+  max-width: 100%;
 }
 
 th {
   font-weight: bold;
 }
+
 tr:nth-of-type(odd) {
   background-color: gainsboro;
 }
@@ -40,9 +41,3 @@ tr:nth-of-type(odd) {
 tr:nth-of-type(even) {
   background-color: #fff;
 }
-
-
-.showBooks {
-  border-style: solid;
-}
-
