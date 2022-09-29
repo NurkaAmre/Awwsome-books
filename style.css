@@ -40,3 +40,27 @@ tr:nth-of-type(odd) {
 tr:nth-of-type(even) {
   background-color: #fff;
 }
+
+tr {
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-btn {
+  border: none;
+  background: none;
+  outline: #000 2px solid;
+  box-shadow: 4px 5px rgb(70, 68, 68);
+  padding: 3px 6px;
+}
+
+.delete {
+  border: none;
+  background: none;
+  outline: #000 2px solid;
+  box-shadow: 4px 5px rgb(53, 52, 52);
+  padding: 3px 6px;
+}

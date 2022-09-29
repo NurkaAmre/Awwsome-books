@@ -1,5 +1,15 @@
 /* eslint-disable max-classes-per-file */
 
+/* Navigation selectors */
+const navList = document.querySelector('.nav-list');
+const navAdd = document.querySelector('.new-book');
+const navContact = document.querySelector('.contact');
+
+/* Pages selectors */
+const pageList = document.querySelector('#list');
+const addPages = document.querySelector('#new-book');
+const contactPart = document.querySelector('#contact');
+
 // BOOK CLASS represents book
 class Book {
   constructor(title, author) {
